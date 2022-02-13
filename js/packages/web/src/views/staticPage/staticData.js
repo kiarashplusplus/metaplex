@@ -1,18 +1,17 @@
 export const data = {
   headContent: {
-    title: 'We are Metaplex',
-    subtitle: 'About Us',
+    title: 'Persia',
+    subtitle: 'NFT Event',
     bannerImage: '/main-banner.png',
   },
   leftContent: undefined,
   midContent: {
     sections: [
       {
-        title: 'Metaplex is a protocol built on top of Solana that allows:',
+        title: 'Persia NFTs will be available for sale soon!',
         paragraphs: [
-          '• Creating/Minting non-fungible tokens;',
-          '• Starting a variety of auctions for primary/secondary sales;',
-          '• and Visualizing NFTs in a standard way across wallets and applications.',
+          'Preservation of historical documents from private collectors of persian heritage;',
+          'made with Metaplex protocol built on top of Solana.',
         ],
         image: '/main-banner.png',
       },

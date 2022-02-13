@@ -41,7 +41,7 @@ export default class MetaplexDocument extends Document {
             href="/favicon-16x16.png"
           />
           <meta name="theme-color" content="#000000" />
-          <meta name="description" content="Metaplex NFT Marketplace" />
+          <meta name="description" content="Persia Heritage NFT Marketplace" />
           <link rel="manifest" href="/manifest.json" />
           <link
             rel="stylesheet"
@@ -53,11 +53,6 @@ export default class MetaplexDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charSet="utf-8"
-          />
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
