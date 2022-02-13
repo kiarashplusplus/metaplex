@@ -24,6 +24,7 @@ async function upload(data: FormData, manifest, index) {
   return await (
     await fetch(ARWEAVE_UPLOAD_ENDPOINT, {
       method: 'POST',
+      mode: 'no-cors',
       // @ts-ignore
       body: data,
     })
